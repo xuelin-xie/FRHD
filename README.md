@@ -18,10 +18,14 @@ These are the function files for the FRHD model, all involved code is compressed
 # Key Finding 2
 ![image](https://github.com/xuelin-xie/FRHD/blob/main/key_finding2.png)
 The Pixel-wise denoising paradigm:
+
 $$
-\min_{\mathcal{X}, \mathcal{N}, \mathcal{W}} \, \overbrace{\mathcal{R}(\mathcal{X})}^{\text{Image Prior}} + \lambda \overbrace{\mathcal{P}(\mathcal{N})}^{\text{Noise Prior}} + \alpha \overbrace{\mathcal{J}(\mathcal{W})}^{\text{Weight Prior}}, \quad s.t. \quad \underbrace{\mathcal{W} \odot (\mathbf{Y} - \mathbf{X}) = \mathcal{N}}_{\text{Fidelity Constraints}}
+\min_{\mathcal{X}, \mathcal{N}, \mathcal{W}} \mathcal{R}(\mathcal{X}) + \lambda \mathcal{P}(\mathcal{N}) + \alpha \mathcal{J}(\mathcal{W}), \quad \text{s.t.} \quad \mathcal{W} \odot (\mathbf{Y} - \mathbf{X}) = \mathcal{N}
 $$
-can effectively improve the model's denoising capabilities.
+
+where $\mathcal{R}(\mathcal{X})$ is the Image Prior, $\mathcal{P}(\mathcal{N})$ is the Noise Prior, and $\mathcal{J}(\mathcal{W})$ is the Weight Prior. The constraint represents the Fidelity Constraints.
+
+This formulation can effectively improve the model's denoising capabilities.
 
 # Key advantages
 1) Fast;
