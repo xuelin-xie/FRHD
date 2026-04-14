@@ -1,8 +1,6 @@
 # FRHD
 Implementation of “Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising”
 
-The code will be uploaded immediately after the paper is published online.
-
 # Introduction
 A fast and robust pixel-wise model combined with the total variation regularizer for representative coefficients to accurately remove mixed noise in hyperspectral images.
 ![image](https://github.com/xuelin-xie/FRHD/blob/main/FRHD_model.png)
