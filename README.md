@@ -2,12 +2,12 @@
 Implementation of “Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising”
 
 # Introduction
-A fast and robust pixel-wise model combined with the total variation regularizer for representative coefficients to accurately remove mixed noise in hyperspectral images.
+This work proposes an ADMM-based FRHD model with noise prior reduction and adaptive pixel-wise weighting. It is fast, accurate, and designed for mixed noise removal in hyperspectral images.
 ![image](https://github.com/xuelin-xie/FRHD/blob/main/FRHD_model.png)
 
-# Contents 
+# Contents
+These are the function files for the FRHD model, all involved code is compressed in the 'FRHD_main.zip' file. The framework of this work is:
 ![image](https://github.com/xuelin-xie/FRHD/blob/main/FRHD_flowchart.png)
-These are the function files for the FRHD model, all involved code is compressed in the 'FRHD.zip' file.
 
 # Key Finding 1
 **Theorem 1**. In the ADMM framework, with proper parameter scaling, the denoising frameworks in Definitions 1 and 2 yield identical updates for $\mathcal{X}$, $\mathcal{S}$, and $\mathcal{D}$.
@@ -29,8 +29,12 @@ This formulation can effectively improve the model's denoising capabilities.
 1) Fast;
 2) High precision.
 
+# Limitations:
+FRHD may require careful parameter tuning for optimal performance.
+
 # How to Cite
-To use these codes, please cite the paper: Xuelin Xie, Xiliang Lu, Zhengshan Wang, Yang Zhang, and Long Chen. Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising. Appl. Math. Model., 2026, xx: xxx. (To be published)
+To use these codes, please cite the paper: 
+Xuelin Xie, Xiliang Lu, Zhengshan Wang, Yang Zhang, and Long Chen. Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising. Appl. Math. Model., 2026.
 
 # Contact
 The FRHD model for MATLAB is supported by Supercomputing Center of Wuhan University. If you have any questions, please feel free to contact us: xl.xie@whu.edu.cn (Xuelin Xie).
