@@ -29,7 +29,7 @@ This formulation can effectively improve the model's denoising capabilities.
 1) Fast;
 2) High precision.
 
-# Limitations:
+# Limitations
 FRHD may require careful parameter tuning for optimal performance.
 
 # How to Cite
