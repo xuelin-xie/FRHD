@@ -33,7 +33,9 @@ This formulation can effectively improve the model's denoising capabilities.
 FRHD may require careful parameter tuning for optimal performance.
 
 # How to Cite
-To use these codes, please cite the paper: 
+If you find this code or our work helpful, we would really appreciate a citation to our paper. Thank you!
+
+Paper citation:
 Xuelin Xie, Xiliang Lu, Zhengshan Wang, Yang Zhang, and Long Chen. Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising. Appl. Math. Model., 2026.
 
 # Contact
