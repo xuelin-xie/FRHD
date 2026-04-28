@@ -37,6 +37,17 @@ If you find this code or our work helpful, we would really appreciate a citation
 
 Paper citation:
 Xuelin Xie, Xiliang Lu, Zhengshan Wang, Yang Zhang, and Long Chen. Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising. Appl. Math. Model., 2026.
+```markdown
+```bibtex
+@article{xie2026spatial,
+  title={Spatial-Spectral Adaptive Fidelity and Noise Prior Reduction Guided Hyperspectral Image Denoising},
+  author={Xie, Xuelin and Lu, Xiliang and Wang, Zhengshan and Zhang, Yang and Chen, Long},
+  journal={Applied Mathematical Modelling},
+  volume={157},
+  pages={116983},
+  year={2026},
+  publisher={Elsevier}
+}
 
 # Contact
 The FRHD model for MATLAB is supported by Supercomputing Center of Wuhan University. If you have any questions, please feel free to contact us: xl.xie@whu.edu.cn (Xuelin Xie).
