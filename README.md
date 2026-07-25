@@ -3,18 +3,18 @@ Implementation of “Spatial-Spectral Adaptive Fidelity and Noise Prior Reductio
 
 # Introduction
 This work proposes an ADMM-based FRHD model with noise prior reduction and adaptive pixel-wise weighting. It is fast, accurate, and designed for mixed noise removal in hyperspectral images.
-![image](https://github.com/xuelin-xie/FRHD/blob/main/FRHD_model.png)
+![image](https://github.com/xuelin-xie/FRHD/blob/main/images/FRHD_model.png)
 
 # Contents
 These are the function files for the FRHD model, all involved code is compressed in the 'FRHD_main.zip' file. The framework of this work is:
-![image](https://github.com/xuelin-xie/FRHD/blob/main/FRHD_flowchart.png)
+![image](https://github.com/xuelin-xie/FRHD/blob/main/images/FRHD_flowchart.png)
 
 # Key Finding 1
 **Theorem 1**. In the ADMM framework, with proper parameter scaling, the denoising frameworks in Definitions 1 and 2 yield identical updates for $\mathcal{X}$, $\mathcal{S}$, and $\mathcal{D}$.
-![image](https://github.com/xuelin-xie/FRHD/blob/main/key_finding1.png)
+![image](https://github.com/xuelin-xie/FRHD/blob/main/images/key_finding1.png)
 
 # Key Finding 2
-![image](https://github.com/xuelin-xie/FRHD/blob/main/key_finding2.png)
+![image](https://github.com/xuelin-xie/FRHD/blob/main/images/key_finding2.png)
 The Pixel-wise denoising paradigm:
 
 $$
